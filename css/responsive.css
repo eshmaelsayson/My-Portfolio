@@ -1,0 +1,168 @@
+@media(max-width:900px){
+
+.hero{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.hero-image{
+
+order:-1;
+
+}
+
+.hero-image img{
+
+width:280px;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+.menu{
+
+display:block;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+.buttons{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.socials{
+
+justify-content:center;
+
+}
+
+}
+/* =========================
+   ABOUT RESPONSIVE
+========================= */
+
+@media(max-width:900px){
+
+.about-content{
+
+grid-template-columns:1fr;
+
+}
+
+.about-stats{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+/*======================
+   EXPERIENCE
+=======================*/
+
+@media(max-width:768px){
+
+.timeline{
+
+padding-left:25px;
+
+}
+
+.timeline::before{
+
+left:10px;
+
+}
+
+.timeline-dot{
+
+left:-38px;
+
+}
+
+.timeline-content{
+
+padding:20px;
+
+}
+
+}
+/*======================
+      EDUCATION
+=======================*/
+
+@media(max-width:768px){
+
+    .education-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/*======================
+      PROJECTS
+=======================*/
+
+@media(max-width:768px){
+
+.project-card img{
+
+height:220px;
+
+}
+
+.project-content{
+
+padding:20px;
+
+}
+
+.project-content h3{
+
+font-size:24px;
+
+}
+
+.project-buttons{
+
+flex-direction:column;
+
+}
+
+}
+/*======================
+      CONTACT
+=======================*/
+
+@media(max-width:768px){
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
