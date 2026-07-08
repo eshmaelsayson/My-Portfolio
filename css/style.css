@@ -345,7 +345,24 @@ header{
 
     animation:float 4s ease-in-out infinite;
 
+   display:block;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
 }
+
+.hero-image img:hover {
+      transform: scale(1.02);
+    }
+
+.hero-image img:active {
+      transform: scale(0.98);
+    }
+
+.hero-image img:focus {
+      outline: none;
+    }
 
 /* =========================
    FLOAT ANIMATION
